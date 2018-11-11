@@ -241,6 +241,9 @@ TARGET_USE_SDCLANG := true
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/vendor/sepolicy
 
+# Treble
+TARGET_COPY_OUT_VENDOR := vendor
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
